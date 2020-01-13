@@ -2,27 +2,30 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+h1 {
+  color: #BA262B;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+form input {
+  background: #FBACA8;
 }
 
-.App-title {
-  font-size: 1.5em;
+.field::placeholder {
+  color: #BA262B;
 }
 
-.App-intro {
-  font-size: large;
+.smurfVillage {
+  padding-top: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.smurf {
+  background: #62CDFD;
+  padding: 5%;
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px grey;
 }
